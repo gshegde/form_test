@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.App > input,
+h1 {
+  width: fit-content;
+  margin: 6px;
+}
+html,
+body {
+  background-color: #333;
+  color: #777;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.listItems {
+  display: flex;
+  flex-direction: column;
+}
+.listItems li {
+  list-style: none;
+  background-color: aliceblue;
+}
+
+.paymentButton {
+  background-color: greenyellow;
+}
